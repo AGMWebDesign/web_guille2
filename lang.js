@@ -1,11 +1,11 @@
 const translations = {
   en: {
     h1: "Guille Tattoo",
-    subtitle: "Custom tattoos crafted with precision in Gold Coast, Australia.",
+    subtitle: "Custom tattoos from Gold Coast, Australia."
   },
   es: {
     h1: "Guille Tattoo",
-    subtitle: "Tatuajes personalizados con precisión en Gold Coast, Australia.",
+    subtitle: "Tatuajes personalizados desde Gold Coast, Australia."
   }
 };
 
