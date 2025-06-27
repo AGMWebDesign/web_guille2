@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Guille Tattoo</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
@@ -25,7 +25,7 @@
     </section>
 
     <section class="services" id="services">
-        <div class="services-text" id="services-text">
+        <div class="services-title" id="services-title">
             <h2 data-lang="h2">Services</h2>
         </div>
         <div class="service-item" data-aos="fade-right">
@@ -51,7 +51,46 @@
             <p>Custom typography and quotes that speak for you. From elegant scripts to bold statements, each word tells your story.</p>
             </div>
         </div>
-</section>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-title" id="about-title">
+            <h2 data-lang="h2">About Me</h2>
+        </div>
+        <div class="about-container">
+            <div class="about-img" data-aos="fade-right">
+                <img src="img/tatuador.png" alt="Guille Tatto" />
+            </div>
+            <div class="about-text" data-aos="fade-left" data-lang="about-text">
+                <p>
+                    I’m Guille, a tattoo artist based in Gold Coast with over 2 years of experience.  
+                    I specialize in detailed realism, clean fine lines, and bold lettering.  
+                    My goal is to turn your story into a piece of art that lives on your skin forever.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-title" data-aos="fade-up">
+            <h2 data-lang="contact-title">Contact & Booking</h2>
+        </div>
+
+        <div class="contact-content">
+            <form class="contact-form" data-aos="fade-right">
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Email" required />
+                <textarea rows="5" placeholder="Message or reservation request" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+
+            <div class="contact-info" data-aos="fade-left">
+                <p>Email: <a href="mailto:guilletattoo@example.com">guilletattoo@example.com</a></p>
+                <p>Instagram: <a href="https://instagram.com/guilletattoo" target="_blank">@guilletattoo</a></p>
+                <p>Location: Gold Coast, Australia</p>
+            </div>
+        </div>
+    </section>
 
   </main>
 
