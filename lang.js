@@ -6,7 +6,7 @@ const translations = {
     "about-title": "About Me",
     "about-text": `
       <p>
-        I’m Guille, a tattoo artist based in Gold Coast with over 10 years of experience.<br>
+        I’m Guille, a tattoo artist based in Gold Coast with over 2 years of experience.<br>
         I specialize in detailed realism, clean fine lines, and bold lettering.<br>
         My goal is to turn your story into a piece of art that lives on your skin forever.
       </p>
@@ -20,7 +20,7 @@ const translations = {
     "about-title": "Sobre mí",
     "about-text": `
       <p>
-        Soy Guille, tatuador en Gold Coast con más de 10 años de experiencia.<br>
+        Soy Guille, tatuador en Gold Coast con más de 2 años de experiencia.<br>
         Me especializo en realismo detallado, líneas finas limpias y lettering potente.<br>
         Mi objetivo es convertir tu historia en una obra de arte que viva en tu piel para siempre.
       </p>
