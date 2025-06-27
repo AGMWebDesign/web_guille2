@@ -21,4 +21,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Cargar idioma inicial
   setLanguage(currentLang);
+
+
+  //Banner de cookies
+  const cookieBanner = document.getElementById("cookie-banner");
+  const cookieButton = document.getElementById("cookie-accept");
+
+  if (!localStorage.getItem("cookiesAccepted")) {
+    cookieBanner.style.display = "flex";
+  }
+
+  cookieButton.addEventListener("click", () => {
+    localStorage.setItem("cookiesAccepted", "true");
+    cookieBanner.style.display = "none";
+  });  
 });

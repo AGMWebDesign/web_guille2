@@ -11,7 +11,15 @@ const translations = {
         My goal is to turn your story into a piece of art that lives on your skin forever.
       </p>
     `,
-    "contact-title": "Contact & Booking"
+    "contact-title": "Contact & Booking",
+    "legal-title": "Legal Notice",
+"legal-text": `
+  <p>&copy; 2025 Guille Tattoo. All rights reserved.</p>
+  <p>We may use cookies to improve user experience. By continuing, you agree to our cookie usage.</p>
+`,
+"cookie-text": "We use cookies to enhance your experience. By continuing, you accept them.",
+"cookie-accept": "Accept"
+
   },
   es: {
     h1: "Guille Tattoo",
@@ -25,7 +33,15 @@ const translations = {
         Mi objetivo es convertir tu historia en una obra de arte que viva en tu piel para siempre.
       </p>
     `,
-    "contact-title": "Contacto y Reservas"
+    "contact-title": "Contacto y Reservas",
+    "legal-title": "Aviso legal",
+"legal-text": `
+  <p>&copy; 2025 Guille Tattoo. Todos los derechos reservados.</p>
+  <p>Podemos utilizar cookies para mejorar tu experiencia. Al continuar, aceptas su uso.</p>
+`,
+"cookie-text": "Usamos cookies para mejorar tu experiencia. Al continuar, las aceptas.",
+"cookie-accept": "Aceptar"
+
   }
 };
 
