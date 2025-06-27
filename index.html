@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guille Tattoo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Guille Tattoo</div>
+    <button id="lang-toggle">ES</button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-text" id="hero-text">
+        <h1 data-lang="h1">Guille Tattoo</h1>
+        <p data-lang="subtitle">
+          Custom tattoos crafted with precision in Gold Coast, Australia.
+        </p>
+      </div>    
+    </section>
+
+    <section class="galeria" id="galeria">
+      <h2 data-lang="services-title">Services</h2>
+
+      <div class="galeria-grid">
+        <div class="galeria-item realism" data-aos="fade-up">
+            <img src="https://picsum.photos/id/237/600/400" alt="Realism Tattoo" />
+            <div class="descripcion">
+            <h3>Realism Tattoo</h3>
+            <p>High-detail shading and depth work. Inspired by natural forms and portraits.</p>
+            </div>
+        </div>
+
+        <div class="galeria-item fine-line" data-aos="fade-up">
+            <img src="https://picsum.photos/id/238/600/400" alt="Fine Line Tattoo" />
+            <div class="descripcion">
+            <h3>Fine Line Tattoo</h3>
+            <p>Delicate and minimalist style using ultra-thin needles. Elegant and timeless.</p>
+            </div>
+        </div>
+
+        <div class="galeria-item lettering" data-aos="fade-up">
+            <img src="https://picsum.photos/id/239/600/400" alt="Lettering Tattoo" />
+            <div class="descripcion">
+            <h3>Lettering Tattoo</h3>
+            <p>Powerful typographic designs, personal quotes and custom calligraphy.</p>
+            </div>
+        </div>
+    </div>
+
+    </section>
+  </main>
+
+  <script src="lang.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
