@@ -6,10 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
   // Scroll para desvanecer hero
   window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
-    const fadeStart = 50;
+    const fadeStart = 0;
     const fadeUntil = 300;
+
     const opacity = 1 - Math.min(Math.max((scrollY - fadeStart) / (fadeUntil - fadeStart), 0), 1);
+    const translateY = Math.min(scrollY / 4, 80); // bajada suave del texto
+
     heroText.style.opacity = opacity;
+    heroText.style.transform = `translateY(${translateY}px)`;
   });
 
   // Cambiar idioma
